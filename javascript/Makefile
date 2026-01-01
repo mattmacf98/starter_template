@@ -8,5 +8,5 @@ build:
 
 .PHONY: run
 run:
-	docker build -t my_node_tutorial_solution .
-	docker run -it --env-file .env my_node_tutorial_solution:latest
+	docker build -t <YOUR_IMAGE_NAME_HERE> .
+	docker compose up
